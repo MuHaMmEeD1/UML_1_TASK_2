@@ -11,13 +11,9 @@ namespace Task_2
         static void Main(string[] args)
         {
 
-            Remote remote = new Remote();
+            Remote remote = new Remote(new Radio());
 
 
-            // muellim burda sef var 
-            //  private Device? device // bu private di 
-            // men nece buna deyer verim 
-            // deyer olmas metodlar islemir axi
 
 
 

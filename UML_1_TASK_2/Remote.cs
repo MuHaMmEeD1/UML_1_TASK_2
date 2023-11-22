@@ -10,6 +10,11 @@ namespace UML_1_TASK_2
     {
         private Device? device;
 
+        public Remote(Device? device)
+        {
+            this.device = device;
+        }
+
         public void togglePower()
         {
             if(device!.isEnabled()) { 
