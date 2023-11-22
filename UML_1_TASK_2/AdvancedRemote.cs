@@ -14,7 +14,7 @@ namespace UML_1_TASK_2
 
         public void mute()
         {
-            // muelim burda mentiqsizlik var device pirivatedi ve bunun icinde fild yoxdu men nece device.secVolume(0) eliyim
+
         }
     }
 }

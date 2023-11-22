@@ -38,7 +38,8 @@ namespace UML_1_TASK_2
         }
 
 
-
+        public Device getDevice() { return device!; }
+        public void setDevice(Device device) { this.device = device; }
 
 
     }
